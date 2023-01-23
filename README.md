@@ -1,15 +1,20 @@
 # Tipos de Route Guards
 
-- CanActivate: Decide se uma rota(ou componente) pode ser ativada, ex. como um sistema de login;
-- CanDeactivate: Decide se um usuário pode navegar para longe de uma rota (ou componente), ex. Solicitar a confirmação de alterações pendentes;
-- CanLoad: Verifica se pode ou não carregar o módulo específico. Geralmente é usado com o Lazy-Load;
-- CanActivateChild: É semelhante a CanActivate, mas se aplica a rotas aninhadas (rotas filhas).
+### CanActivate
+- Decide se uma rota(ou componente) pode ser ativada, ex. como um sistema de login;
+### CanDeactivate 
+- Decide se um usuário pode navegar para longe de uma rota (ou componente), ex. Solicitar a confirmação de alterações pendentes;
+### CanLoad
+- Verifica se pode ou não carregar o módulo específico. Geralmente é usado com o Lazy-Load;
+### CanActivateChild
+- É semelhante a CanActivate, mas se aplica a rotas aninhadas (rotas filhas).
 
 # Resumo
 
 Os Routes Guards do Angula nos permitem controlar a acessibilidade de uma rota com base nas condicoes forncedias na implementação de um serviço.
 Basicamente com os Guards é possível controlar o acesso autorizado de uma determinada rota ou adicionar alguma outra lógica para acesso.
 
+# Angular Standard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
