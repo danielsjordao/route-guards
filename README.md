@@ -9,7 +9,7 @@
 ### CanActivateChild
 - É semelhante a CanActivate, mas se aplica a rotas aninhadas (rotas filhas).
 
-# Resumo
+# Resumo da aula de Route Guards
 
 Os Routes Guards do Angula nos permitem controlar a acessibilidade de uma rota com base nas condicoes forncedias na implementação de um serviço.
 Basicamente com os Guards é possível controlar o acesso autorizado de uma determinada rota ou adicionar alguma outra lógica para acesso.
